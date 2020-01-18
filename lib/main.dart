@@ -46,6 +46,7 @@ class _MyAppState extends State<MyApp> {
         body: PageView(
           controller: _pageController,
           children: <Widget>[
+            //lista delle pagine che vuoi visualizzare
             Widget1(),
             Widget2(),
             Widget3(),
